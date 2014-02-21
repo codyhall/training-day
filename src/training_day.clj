@@ -7,5 +7,4 @@
 
 (def square (fn [x] (* x x)))
 
-(defn average [a b]
-  ":(")
+(defn average [a b] (/ (+ a b) 2))
